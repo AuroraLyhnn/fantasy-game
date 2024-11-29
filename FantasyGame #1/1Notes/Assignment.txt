@@ -1,0 +1,75 @@
+﻿        Assignment: Build a Text-Based Adventure Game
+        Objective
+
+        The goal is to introduce:
+
+        Working with loops and conditional logic
+
+        Handling user input
+
+        Building a simple game flow
+
+
+
+        ---
+
+        The Assignment
+
+        Create a console-based adventure game in which the player navigates through a story with choices that lead to different outcomes.The game will have a simple branching structure based on user input.
+
+
+        ---
+
+        Game Description
+
+        You are a brave adventurer exploring a mysterious cave.Along the way, you’ll encounter challenges like deciding which path to take, solving simple puzzles, or choosing whether to fight or flee from danger.
+
+
+        ---
+
+        Requirements
+
+        1. Game Structure
+
+        The game starts with an introduction to the story.
+
+        The player is presented with choices (e.g., "Enter the cave" or "Run away").
+
+        Each choice leads to a different scenario or outcome.
+
+
+
+        2. Core Mechanics
+
+        Use a while loop or recursive method to keep the game running until the player "wins" or "loses."
+
+        Use if/else statements to determine outcomes based on player input.
+
+
+
+        3. Features
+            At least 3 decision points with multiple outcomes.
+
+        At least one "winning" ending and one "losing" ending.
+
+
+
+        4. Error Handling
+
+        If the player enters invalid input (e.g., a number instead of "yes" or "no"), display an error message and ask again.
+
+
+
+
+
+        ---
+
+        Optional
+        1. Add a health system, where the player starts with 100 health and loses points based on bad decisions.
+
+
+        2. Include random events using the Random class.
+
+
+        3. Allow the player to collect and use items like a sword or a key
+        }

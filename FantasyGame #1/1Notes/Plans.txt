@@ -1,0 +1,17 @@
+﻿in the heatlh system i want to set a maximum of how much the character can take. Bv. If theres 3+ wounds in health trigger scenario (death or am I?)
+Een kampvuur counter. na x scenarios gaat je vuur uit. (tak als brandhout voegt 1 of 2 toe aan de counter)
+
+Verschillende items die invloed kunnen hebben op je heatlh:
+
+Andere scenarios om tegen te komen:
+
+Je loopt langs een scherpe uitstekende tak en haalt je been open
+
+Je brandhout raakt op, in paniek zoek je naar meer brandhout maar kan niks vinden in je directe omgeving. 
+Het word donker en je weet niet wat je moet doen => dit triggert een flashback naar je ongeluk.
+
+
+Wat kom je tegen in het bos? (just a brainstorm session, nothing is final yet)
+Wolf
+terug bij het kampvuur (want je komt niet ver bij het vuur vandaan waar je ook heengaat)
+Klein huisje die heel bekend gevoel geeft
