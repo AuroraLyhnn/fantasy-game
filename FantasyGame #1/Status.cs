@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FantasyGame__1
 {
-    public class Storage
+    public class Status
     {
         public static class Inventory
         {
