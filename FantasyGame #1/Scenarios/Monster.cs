@@ -8,7 +8,7 @@ namespace FantasyGame__1
 {
     public class Wolf
     {
-       public void Attack(string campOrWoods)
+        public void Attack(string campOrWoods)
         {
             if (campOrWoods == "1")
             {

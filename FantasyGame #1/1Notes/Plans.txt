@@ -1,4 +1,4 @@
-﻿in the heatlh system i want to set a maximum of how much the character can take. Bv. If theres 3+ wounds in health trigger scenario (death or am I?)
+﻿In the heatlh system i want to set a maximum of how much the character can take. Bv. If theres 3+ wounds in health trigger scenario (death or am I?)
 Een kampvuur counter. na x scenarios gaat je vuur uit. (tak als brandhout voegt 1 of 2 toe aan de counter)
 
 Verschillende items die invloed kunnen hebben op je heatlh:
