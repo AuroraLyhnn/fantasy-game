@@ -9,6 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="Story\Camp.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Camp.resx</DependentUpon>
+    </Compile>
     <Compile Update="Story\Error.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -37,6 +42,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Story\Camp.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Camp.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Update="Story\Error.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Error.Designer.cs</LastGenOutput>

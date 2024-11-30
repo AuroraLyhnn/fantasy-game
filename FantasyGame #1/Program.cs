@@ -45,25 +45,29 @@ namespace FantasyGame__1
             while (true)
             {
                 string cfStep1 = Console.ReadLine();
+                Console.WriteLine();
                 switch (cfStep1)
                 {
                     case "1":
-                        Print("\nSince you havent heard much noises yet and youre pretty tired from the stress today|");
+                        Print(Story.Camp.Rest);
                         Print(Story.Events.Sleep);
                         var wolf = new Wolf();
                         wolf.Attack(campOrWoods);
-
                         break;
 
                     case "2":
-                        Print("\nSince the cozyness of the fire only gives a shallow feeling of safety,|\nyou dont want to sit and do nothing for much longer.|");
+                        Print(Story.Camp.Look);
                         var lookAround = new LookAround();
                         lookAround.Look(campOrWoods);
                         break;
 
                     case "3":
-                        Print("\nThese berries are pretty tasteless and have a weird feel. Almost as if they turn to smoke in your mouth");
+                        Print(Story.Camp.Eat);
                         EatBerries();
+                        break;
+
+                    default:
+                        Print(Story.Error.Options3);
                         break;
                 }
             }
@@ -83,7 +87,7 @@ namespace FantasyGame__1
         }
 
         
-        
+        //For the printing speed
         public static void Print(string text, int speed = 20, int longPauseSpeed = 400)
         {
             string[] parts = text.Split('|');
