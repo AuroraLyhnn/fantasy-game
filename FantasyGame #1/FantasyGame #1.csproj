@@ -29,6 +29,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>General.resx</DependentUpon>
     </Compile>
+    <Compile Update="Story\Healing.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Healing.resx</DependentUpon>
+    </Compile>
     <Compile Update="Story\Wolf.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -62,6 +67,10 @@
     <EmbeddedResource Update="Story\General.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>General.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Story\Healing.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Healing.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Story\Wolf.resx">
       <Generator>ResXFileCodeGenerator</Generator>

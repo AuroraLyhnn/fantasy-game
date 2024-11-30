@@ -15,11 +15,13 @@ namespace FantasyGame__1
             Print(Story.General.GameIntro);
             Console.ReadLine();
             Print(Story.General.Intro2);
+            Console.WriteLine();
 
             //de keuze voor kamp of bos
             while (true)
             {
                 campOrWoods = Console.ReadLine();
+                Console.WriteLine();
 
                 if (campOrWoods == "1")
                 {
@@ -62,8 +64,8 @@ namespace FantasyGame__1
                         break;
 
                     case "3":
-                        Print(Story.Camp.Eat);
-                        EatBerries();
+                        var berries = new Berries();
+                        berries.EatBerries(campOrWoods);
                         break;
 
                     default:
@@ -88,7 +90,7 @@ namespace FantasyGame__1
 
         
         //For the printing speed
-        public static void Print(string text, int speed = 20, int longPauseSpeed = 400)
+        public static void Print(string text, int speed = 0, int longPauseSpeed = 0) //20, 400
         {
             string[] parts = text.Split('|');
 
