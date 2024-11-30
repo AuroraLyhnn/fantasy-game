@@ -39,6 +39,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Stick.resx</DependentUpon>
     </Compile>
+    <Compile Update="Story\Woods.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Woods.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -65,6 +70,10 @@
     <EmbeddedResource Update="Story\Stick.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Stick.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Story\Woods.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Woods.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

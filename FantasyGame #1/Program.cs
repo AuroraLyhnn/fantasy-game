@@ -14,7 +14,7 @@ namespace FantasyGame__1
             //opening
             Print(Story.General.GameIntro);
             Console.ReadLine();
-            Print(Beginning.Intro2);
+            Print(Story.General.Intro2);
 
             //de keuze voor kamp of bos
             while (true)
@@ -40,7 +40,7 @@ namespace FantasyGame__1
         static void AtTheCampfire()
         {
 
-            Print(CFStory.CFstart);
+            Print(Story.Camp.CFStart);
 
             while (true)
             {
@@ -76,7 +76,7 @@ namespace FantasyGame__1
         //scenario 2: ga het bos in
         static void IntoTheWoods()
         {
-            Print(WStory.Wstart);
+            Print(Story.Woods.WStart);
         }
 
 

@@ -22,14 +22,14 @@ namespace FantasyGame__1.Story {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Camp {
+    internal class Woods {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Camp() {
+        internal Woods() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace FantasyGame__1.Story {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FantasyGame__1.Story.Camp", typeof(Camp).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FantasyGame__1.Story.Woods", typeof(Woods).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,47 +61,16 @@ namespace FantasyGame__1.Story {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Even though you really want to get home as soon as possible,|
-        ///you realize its better to stay safe than to never make it home at all.|
-        ///After all you&apos;ve heard stories of warriors going through these woods and not making it out alive.|
-        ///At least here at the campfire you can see a little of your surroundings, 
-        ///get some more rest and who knows, maybe the terrifying creatures of the forest are scared of fire?|
-        ///So you throw on some more wood to keep the fire going.|
-        ///
-        ///While waiting for this night to be over y [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Thinking that it is no longer safe to drag attention with a glowing flame,|
+        ///you put out the fire and gather your things to get moving.|
+        ///You&apos;ve heard stories about groups of warriors going through these woods and not making it out alive.|
+        ///So its best to be carefull.|
+        ///After all, the only things you’re carrying are a small knife and some berries you&apos;ve found close to the resting place.|
+        ///You take a deep breath and take your first steps into the dark unknown.|.
         /// </summary>
-        internal static string CFStart {
+        internal static string WStart {
             get {
-                return ResourceManager.GetString("CFStart", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to These berries are pretty tasteless and have a weird feel.|
-        ///Almost as if they turn to smoke in your mouth|.
-        /// </summary>
-        internal static string Eat {
-            get {
-                return ResourceManager.GetString("Eat", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Since the cozyness of the fire only gives a shallow feeling of safety,|
-        ///you dont want to sit and do nothing for much longer.|.
-        /// </summary>
-        internal static string Look {
-            get {
-                return ResourceManager.GetString("Look", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Since you havent heard much noises yet and youre pretty tired from the stress today|.
-        /// </summary>
-        internal static string Rest {
-            get {
-                return ResourceManager.GetString("Rest", resourceCulture);
+                return ResourceManager.GetString("WStart", resourceCulture);
             }
         }
     }

@@ -117,25 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Eat" xml:space="preserve">
-    <value>These berries are pretty tasteless and have a weird feel.|
-Almost as if they turn to smoke in your mouth|</value>
-  </data>
-  <data name="Look" xml:space="preserve">
-    <value>Since the cozyness of the fire only gives a shallow feeling of safety,|
-you dont want to sit and do nothing for much longer.|</value>
-  </data>
-  <data name="Rest" xml:space="preserve">
-    <value>Since you havent heard much noises yet and youre pretty tired from the stress today|</value>
-  </data>
-  <data name="CFStart" xml:space="preserve">
-    <value>Even though you really want to get home as soon as possible,|
-you realize its better to stay safe than to never make it home at all.|
-After all you've heard stories of warriors going through these woods and not making it out alive.|
-At least here at the campfire you can see a little of your surroundings, 
-get some more rest and who knows, maybe the terrifying creatures of the forest are scared of fire?|
-So you throw on some more wood to keep the fire going.|
-
-While waiting for this night to be over you best spend your time on something usefull.|So far you hold the small knife you managed to grab on your way out, |</value>
+  <data name="WStart" xml:space="preserve">
+    <value>Thinking that it is no longer safe to drag attention with a glowing flame,|
+you put out the fire and gather your things to get moving.|
+You've heard stories about groups of warriors going through these woods and not making it out alive.|
+So its best to be carefull.|
+After all, the only things you’re carrying are a small knife and some berries you've found close to the resting place.|
+You take a deep breath and take your first steps into the dark unknown.|</value>
   </data>
 </root>
