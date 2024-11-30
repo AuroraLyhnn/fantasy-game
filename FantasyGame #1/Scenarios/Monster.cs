@@ -12,7 +12,7 @@ namespace FantasyGame__1
         {
             if (campOrWoods == "1")
             {
-                Program.Print(Wolf.CFwolf);
+                //Program.Print(Story.Wolf.?); An intro of the wolf reaching the camp + description of the wolf
                 if (Status.Inventory.Items.Contains("stick"))
                 {
                     Program.Print("");
@@ -28,7 +28,8 @@ namespace FantasyGame__1
             }
             else
             {
-                Program.Print(Wolf.Wwolf); //i want to put switch statements in the if else to give the player choices on how to flee or fight with the wolf
+                //Program.Print(Story.Wolf.?); An intro of running into the wolf in the woods and its description
+                //i want to put switch statements in the if else to give the player choices on how to flee or fight with the wolf
                 if (Status.Inventory.Items.Contains("stick"))
                 {
                     Program.Print("");
@@ -40,19 +41,14 @@ namespace FantasyGame__1
                 else
                 {
                     Program.Print("");
-                    // is it in this scenario the character gets wounded  Status.Health.AddWound("bitewound"); for example
                 }
             }
         }
 
-        public static string CFwolf = @"
-...intro of the wolf reaching the campfire and its description...";
-
-        public static string Wwolf = @"
-...intro of running into the wolf in the woods and its descpription...";
-
-
         // in wolfattack wil ik het healthsysteem meenemen, afhankelijk van hoe je de wolf behandeld kan hij je goed verwonden.
         // En dit kan verschillende scenarios triggeren afhankelijk van wat je al hebt meegemaakt voor je hem tegenkomt
+        // wait what was that                    
+        // if in the scenario the character gets wounded  Status.Health.AddWound("bitewound"); for example
+
     }
 }

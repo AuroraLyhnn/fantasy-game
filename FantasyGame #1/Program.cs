@@ -12,7 +12,7 @@ namespace FantasyGame__1
         static void Main(string[] args)
         {
             //opening
-            Print(Beginning.Intro1);
+            Print(Story.General.GameIntro);
             Console.ReadLine();
             Print(Beginning.Intro2);
 
@@ -31,7 +31,7 @@ namespace FantasyGame__1
                 }
                 else
                 {
-                    Print("please choose 1 or 2 ♥");
+                    Print(Story.Error.Options2);
                 }
             }
         }
@@ -48,19 +48,21 @@ namespace FantasyGame__1
                 switch (cfStep1)
                 {
                     case "1":
-                        Print("");
-                        Print("Since you havent heard much noises yet and youre pretty tired from the stress today|");
-                        FallAsleep();
+                        Print("\nSince you havent heard much noises yet and youre pretty tired from the stress today|");
+                        Print(Story.Events.Sleep);
+                        var wolf = new Wolf();
+                        wolf.Attack(campOrWoods);
+
                         break;
 
                     case "2":
-                        Print("Since the cozyness of the fire only gives a shallow feeling of safety,|\nyou dont want to sit and do nothing for much longer.|");
+                        Print("\nSince the cozyness of the fire only gives a shallow feeling of safety,|\nyou dont want to sit and do nothing for much longer.|");
                         var lookAround = new LookAround();
                         lookAround.Look(campOrWoods);
                         break;
 
                     case "3":
-                        Print("These berries are pretty tasteless and have a weird feel. Almost as if they turn to smoke in your mouth");
+                        Print("\nThese berries are pretty tasteless and have a weird feel. Almost as if they turn to smoke in your mouth");
                         EatBerries();
                         break;
                 }
@@ -75,13 +77,6 @@ namespace FantasyGame__1
 
 
         //// classes for scenarios that can happen at different times
-        static void FallAsleep()
-        {
-            Print(Scenario.FallAsleep);
-            var wolf = new Wolf();
-            wolf.Attack(campOrWoods);
-        }
-
         static void EatBerries()
         {
             // can heal one status condition in Healthstruggles (any status condition? like even grow back a bitten off leg? Think about this..)
