@@ -119,6 +119,7 @@
   </resheader>
   <data name="CFStick1" xml:space="preserve">
     <value>You clamp the stick between your belt to keep it close and hurry back to the campfire where it's safe.|</value>
+    <comment>Keep stick</comment>
   </data>
   <data name="CFStick2" xml:space="preserve">
     <value>You walk back to the campfire and break the stick in pieces.|
@@ -140,7 +141,7 @@ You pull yourself together and finish your spear in no time. Right now the circo
 Don't forget about what situation you are in.|</value>
     <comment>Making a spear</comment>
   </data>
-  <data name="Choices" xml:space="preserve">
+  <data name="CFChoices" xml:space="preserve">
     <value>What are you gonna do with this big stick?|
 
 

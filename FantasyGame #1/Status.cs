@@ -32,6 +32,11 @@ namespace FantasyGame__1
             {
                 Items.Add(item);
             }
+
+            public static void RemoveItem(string item) 
+            { 
+                Items.Remove(item); 
+            }
         }
 
         public static class Health  

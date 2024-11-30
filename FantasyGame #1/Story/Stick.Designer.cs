@@ -61,6 +61,21 @@ namespace FantasyGame__1.Story {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to What are you gonna do with this big stick?|
+        ///
+        ///
+        ///1.  Keep it as a stick
+        ///2.  Use the wood to keep the fire going
+        ///3.  Sharpen the stick with your knife make a spear
+        ///.
+        /// </summary>
+        internal static string CFChoices {
+            get {
+                return ResourceManager.GetString("CFChoices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You clamp the stick between your belt to keep it close and hurry back to the campfire where it&apos;s safe.|.
         /// </summary>
         internal static string CFStick1 {
@@ -95,21 +110,6 @@ namespace FantasyGame__1.Story {
         internal static string CFStick3 {
             get {
                 return ResourceManager.GetString("CFStick3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to What are you gonna do with this big stick?|
-        ///
-        ///
-        ///1.  Keep it as a stick
-        ///2.  Use the wood to keep the fire going
-        ///3.  Sharpen the stick with your knife make a spear
-        ///.
-        /// </summary>
-        internal static string Choices {
-            get {
-                return ResourceManager.GetString("Choices", resourceCulture);
             }
         }
         

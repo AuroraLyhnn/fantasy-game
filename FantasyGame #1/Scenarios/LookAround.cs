@@ -14,23 +14,28 @@ namespace FantasyGame__1
                     
         {
             Program.Print(Story.Stick.Find);
-            Status.Inventory.AddItem("stick");
             if (campOrWoods == "1")
             {
-                Program.Print(Story.Stick.Choices);
+                Program.Print(Story.Stick.CFChoices);
                 stickChoice = Console.ReadLine();
                 Program.Print("");
                 if (stickChoice == "1")
                 {
                     Program.Print(Story.Stick.CFStick1);
+                    Status.Inventory.AddItem("stick");
+
                 }
                 else if (stickChoice == "2")
                 {
                     Program.Print(Story.Stick.CFStick2);
+                    Status.Inventory.AddItem("firewood");
+
                 }
                 else if (stickChoice == "3")
                 {
                     Program.Print(Story.Stick.CFStick3);
+                    Status.Inventory.AddItem("spear");
+
                 }
                 else
                 {
@@ -39,15 +44,18 @@ namespace FantasyGame__1
             }
             else
             {
-                Program.Print(Story.Stick.Choices);
+                Program.Print(Story.Stick.CFChoices);
                 stickChoice = Console.ReadLine();
                 if (stickChoice == "1")
                 {
                     Program.Print("");
+                    Status.Inventory.AddItem("stick");
+
                 }
                 else if (stickChoice == "2")
                 {
                     Program.Print("");
+                    Status.Inventory.AddItem("spear");
                 }
                 else
                 {

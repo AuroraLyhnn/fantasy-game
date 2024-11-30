@@ -81,14 +81,6 @@ namespace FantasyGame__1
             Print(Story.Woods.WStart);
         }
 
-
-        //// classes for scenarios that can happen at different times
-        static void EatBerries()
-        {
-            // can heal one status condition in Healthstruggles (any status condition? like even grow back a bitten off leg? Think about this..)
-        }
-
-        
         //For the printing speed
         public static void Print(string text, int speed = 0, int longPauseSpeed = 0) //20, 400
         {
