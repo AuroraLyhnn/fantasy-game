@@ -59,5 +59,21 @@ namespace FantasyGame__1.Story {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You jump up from the floor and search for the creature. 
+        ///At first you couldn&apos;t figure out where the sounds were coming from,|| 
+        ///the constant growling seemed to surround you.|Could it be there is more than one?| 
+        ///Your hands start shaking and you can barely breath.||||
+        ///But then you saw||||||
+        ///Two glowing red eyes, as if they&apos;re ablaze approaching from between the trees.||| 
+        ///His footsteps sound so heavy as he comes closer and closer.|||||
+        ///When the light from the campfire touches his fur you get mesmerize [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string CFWolfIntro {
+            get {
+                return ResourceManager.GetString("CFWolfIntro", resourceCulture);
+            }
+        }
     }
 }

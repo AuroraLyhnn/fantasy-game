@@ -13,7 +13,6 @@ namespace FantasyGame__1
         {
             //opening
             Print(Story.General.GameIntro);
-            Console.ReadLine();
             Print(Story.General.Intro2);
             Console.WriteLine();
 
@@ -82,7 +81,7 @@ namespace FantasyGame__1
         }
 
         //For the printing speed
-        public static void Print(string text, int speed = 0, int longPauseSpeed = 0) //20, 400
+        public static void Print(string text, int speed = 20, int longPauseSpeed = 400) //20, 400
         {
             string[] parts = text.Split('|');
 

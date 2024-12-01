@@ -12,7 +12,7 @@ namespace FantasyGame__1
         {
             if (campOrWoods == "1")
             {
-                //Program.Print(Story.Wolf.?); An intro of the wolf reaching the camp + description of the wolf
+                Program.Print(Story.Wolf.CFWolfIntro);
                 if (Status.Inventory.Items.Contains("stick"))
                 {
                     Program.Print("");

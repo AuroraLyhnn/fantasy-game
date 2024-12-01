@@ -126,7 +126,9 @@ Press enter to start your adventure...</value>
     <comment>This is the first thing you see when starting the game</comment>
   </data>
   <data name="Intro2" xml:space="preserve">
-    <value>The past hour or so you've been sitting at a small but warm selfmade campfire to regain some energy.|
+    <value>
+		
+The past hour or so you've been sitting at a small but warm selfmade campfire to regain some energy.|
 You kinda surprised yourself at how you've managed to make one,
 since its your first time being out in the forest by yourself.|
 But what will be the best thing to do now that it is getting dark?||

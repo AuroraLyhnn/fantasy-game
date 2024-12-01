@@ -74,7 +74,9 @@ namespace FantasyGame__1.Story {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The past hour or so you&apos;ve been sitting at a small but warm selfmade campfire to regain some energy.|
+        ///   Looks up a localized string similar to 
+        ///		
+        ///The past hour or so you&apos;ve been sitting at a small but warm selfmade campfire to regain some energy.|
         ///You kinda surprised yourself at how you&apos;ve managed to make one,
         ///since its your first time being out in the forest by yourself.|
         ///But what will be the best thing to do now that it is getting dark?||
