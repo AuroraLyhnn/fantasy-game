@@ -10,29 +10,41 @@ namespace FantasyGame__1
     {
         static string stickChoice;
 
-        public void Look(string campOrWoods)
-                    
+        public void Look(string campOrWoods)   
         {
             Program.Print(Story.Stick.Find);
             if (campOrWoods == "1")
             {
-                Program.Print(Story.Stick.CFChoices);
+                LookCamp();
+            }
+            else
+            {
+                LookWoods();
+            }
+        }
+
+        public void LookCamp()
+        {
+            Program.Print(Story.Stick.CFChoices);
+            var validChoice = false;
+            while(!validChoice)
+            {
+                validChoice = true;
                 stickChoice = Console.ReadLine();
                 Program.Print("");
                 if (stickChoice == "1")
                 {
                     Program.Print(Story.Stick.CFStick1);
                     Status.Inventory.AddItem("stick");
-
                 }
                 else if (stickChoice == "2")
                 {
                     Program.Print(Story.Stick.CFStick2);
                     Status.Inventory.AddItem("firewood");
-
                 }
                 else if (stickChoice == "3")
                 {
+
                     Program.Print(Story.Stick.CFStick3);
                     Status.Inventory.AddItem("spear");
 
@@ -40,10 +52,17 @@ namespace FantasyGame__1
                 else
                 {
                     Program.Print(Story.Error.Options3);
+                    validChoice = false;
                 }
             }
-            else
+        }
+
+        public void LookWoods()
+        {
+            var validChoice = false;
+            while (!validChoice)
             {
+                validChoice = true;
                 Program.Print(Story.Stick.CFChoices);
                 stickChoice = Console.ReadLine();
                 if (stickChoice == "1")
@@ -60,6 +79,7 @@ namespace FantasyGame__1
                 else
                 {
                     Program.Print(Story.Error.Options2);
+                    validChoice = false;
                 }
             }
         }

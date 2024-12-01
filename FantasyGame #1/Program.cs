@@ -8,11 +8,12 @@ namespace FantasyGame__1
     class Program
     {
         static string campOrWoods;
-       
+        static int Campfire = 10;
         static void Main(string[] args)
         {
             //opening
             Print(Story.General.GameIntro);
+            Console.ReadLine();
             Print(Story.General.Intro2);
             Console.WriteLine();
 
@@ -43,6 +44,12 @@ namespace FantasyGame__1
 
             Print(Story.Camp.CFStart);
 
+            //Console.WriteLine("Your campfire is " + (Campfire > 5 ? "Bright" : "Very dim") );
+            if(Campfire == 0)
+            {
+                // Jouw Logica wanneer campfire leeg is...
+
+            }
             while (true)
             {
                 string cfStep1 = Console.ReadLine();
@@ -54,23 +61,27 @@ namespace FantasyGame__1
                         Print(Story.Events.Sleep);
                         var wolf = new Wolf();
                         wolf.Attack(campOrWoods);
+                        Campfire -= 2;
                         break;
 
                     case "2":
                         Print(Story.Camp.Look);
                         var lookAround = new LookAround();
                         lookAround.Look(campOrWoods);
+                        Campfire -= 1;
                         break;
 
                     case "3":
                         var berries = new Berries();
                         berries.EatBerries(campOrWoods);
+                        Campfire -= 1;
                         break;
 
                     default:
                         Print(Story.Error.Options3);
                         break;
                 }
+
             }
         }
 
@@ -81,7 +92,7 @@ namespace FantasyGame__1
         }
 
         //For the printing speed
-        public static void Print(string text, int speed = 20, int longPauseSpeed = 400) //20, 400
+        public static void Print(string text, int speed = 0, int longPauseSpeed = 0) //20, 400
         {
             string[] parts = text.Split('|');
 

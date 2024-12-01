@@ -12,7 +12,7 @@ namespace FantasyGame__1
         {
             if (campOrWoods == "1")
             {
-                if (Status.Health.Struggles.Contains("default"))
+                if (Status.Health.Struggles.Contains("healthy"))
                 {
                     Program.Print(Story.Healing.Eat);
                 }
@@ -20,7 +20,7 @@ namespace FantasyGame__1
 
             else
             {
-                if (Status.Health.Struggles.Contains("default"))
+                if (Status.Health.Struggles.Contains("healthy"))
                 {
                     Program.Print(Story.Healing.Eat);
                 }

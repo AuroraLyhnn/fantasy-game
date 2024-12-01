@@ -46,7 +46,7 @@ namespace FantasyGame__1
             static Health()
             {
                 Struggles = new List<string>();
-                Struggles.Add("default");
+                Struggles.Add("healthy");
                 Struggles.Add("");
             }
 
