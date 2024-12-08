@@ -29,7 +29,7 @@ namespace FantasyGame__1
             var validChoice = false;
             while(!validChoice)
             {
-                validChoice = true;
+                validChoice = true; 
                 stickChoice = Console.ReadLine();
                 Program.Print("");
                 if (stickChoice == "1")

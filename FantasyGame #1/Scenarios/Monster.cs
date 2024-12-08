@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,35 +14,48 @@ namespace FantasyGame__1
             if (campOrWoods == "1")
             {
                 Program.Print(Story.Wolf.CFWolfIntro);
-                if (Status.Inventory.Items.Contains("stick"))
+                if (campOrWoods == "1")
                 {
-                    Program.Print("");
-                }
-                else if (Status.Inventory.Items.Contains("spear"))
-                {
-                    Program.Print("");
+                    AttackCamp();
                 }
                 else
                 {
-                    Program.Print("");
+                    AttackWoods();
                 }
+            }
+        }
+
+        public void AttackCamp()
+        {
+            if (Status.Inventory.Items.Contains("stick"))
+            {
+                Program.Print("");
+            }
+            else if (Status.Inventory.Items.Contains("spear"))
+            {
+                Program.Print("");
             }
             else
             {
-                //Program.Print(Story.Wolf.?); An intro of running into the wolf in the woods and its description
-                //i want to put switch statements in the if else to give the player choices on how to flee or fight with the wolf
-                if (Status.Inventory.Items.Contains("stick"))
-                {
-                    Program.Print("");
-                }
-                else if (Status.Inventory.Items.Contains("spear"))
-                {
-                    Program.Print("");
-                }
-                else
-                {
-                    Program.Print("");
-                }
+                Program.Print("");
+            }
+        }
+
+        public void AttackWoods()
+        {
+            //Program.Print(Story.Wolf.?); An intro of running into the wolf in the woods and its description
+            //i want to put switch statements in the if else to give the player choices on how to flee or fight with the wolf
+            if (Status.Inventory.Items.Contains("stick"))
+            {
+                Program.Print("");
+            }
+            else if (Status.Inventory.Items.Contains("spear"))
+            {
+                Program.Print("");
+            }
+            else
+            {
+                Program.Print("");
             }
         }
 
